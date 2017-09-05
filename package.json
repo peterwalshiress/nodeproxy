@@ -1,0 +1,18 @@
+{
+  "name": "proxy",
+  "private": true,
+  "version": "0.0.0",
+  "description": "",
+  "repository": "",
+  "license": "MIT",
+  "devDependencies": {
+  },
+  "scripts": {
+
+    "prestart": "npm install",
+    "start": "node proxy.js 80 13.74.11.249:9089",
+    
+    "preupdate-webdriver": "npm install",
+    "update-webdriver": "webdriver-manager update"
+  }
+}
