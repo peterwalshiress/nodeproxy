@@ -10,7 +10,7 @@
   "scripts": {
 
     "prestart": "npm install",
-    "start": "node proxy.js 80 13.74.11.249:9089",
+    "start": "node proxy.js",
     
     "preupdate-webdriver": "npm install",
     "update-webdriver": "webdriver-manager update"
